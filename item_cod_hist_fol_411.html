@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+
+	<meta charset="UTF-8"/>
+	<!--viewport-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no"/>
+	<!--DC-->
+	<meta name="DC.Title" content="RomAL - Il Romanzo di Alessandro"/>
+	<meta name="DC.Creator" content="Martina Ravaioli"/>
+	<meta name="DC.Subject" content="Romanzo di Alessandro, Historia Alexandri Magni, Historia de preliis, tradizione testuale"/>
+	<meta name="DC.Description" content="Pagina descrittiva della tradizione testuale del Romanzo di Alessandro che riunisce tutti i testimoni conosciuti catalogandoli per collocazione odierna, data di copiatura e redazione."/>
+	<meta name="DC.Date" content="16/09/2021"/> <!--ultimo aggiornamento-->
+	<meta name="DC.Type" content="sito web"/>
+	<meta name="DC.Format" content="HTML/CSS/JS"/>
+	<meta name="DC.Identifier" content="https://martinaravaioli.github.io/esame_dh_ch/">
+	<meta name="DC.Language" content="it"/>
+	<meta name="DC.Source" content="http://www.mirabileweb.it/author/leo-neapolitanus-archipresbyter-fl-944-969-author/19717">
+	<meta name="DC.Source" content="https://www.europeana.eu/it">
+	<meta name="DC.Relation" content="urn:nbn:de:bsz:24-digibib-bsz4562929187">
+	<meta name="DC.Rights" content="CC BY-NC 4.0"> 
+	
+	<title>RomAL - Cod.Hist.Fol.411</title>
+	<!--bootstrap css-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">	
+	<link rel="schema.DC" href=”http://purl.org/dc/elements/1.1/”/>
+	<!--css-->
+	<link rel="stylesheet" href="style.css">
+	<link rel="schema.DCTERMS" href=”http://purl.org/dc/terms/”/>
+	<!--leaflet-->
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+   	integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+  	crossorigin=""/>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+</head>
+
+<body style="background-color: #FFFFFF">
+<div class="container-fluid">
+
+<!--HEADER-->
+<header>
+	<div class="container">
+		<div class="row">
+			<div class="col-3" id="colonna-logo">
+				<nav class="navbar navbar-light bg-0070E0">
+  					<a class="navbar-brand" href="C:/Users/marti/OneDrive/Desktop/Esame_DH/index.html">
+    					<img src="C:/Users/marti/OneDrive/Desktop/Esame_DH/immagini/logo.png" id="logo">
+  					</a>
+				</nav>
+			</div>
+			<div class="col-9" id="colonna-titolo">
+				<h1 id="titolo-sito">IL ROMANZO DI ALESSANDRO</h1>
+			</div>
+		</div><!--row-->
+	</div><!--container-->
+
+	<!--NAVBAR-->
+	<hr>
+	<div class="container">
+		<nav class="navbar navbar-expand-lg flex-column flex-sm-row bg-0070E0 justify-content-center" id="navbar">
+  			<ul class="navbar-nav nav-fill">
+   			<!-- Link -->
+    			<li class="nav-item">
+      				<a class="flex-sm-fill text-sm-center nav-link" href="#" style="color: #FFFFFF">Il Progetto</a>
+    			</li>
+    		<!-- Dropdown -->
+    			<li class="nav-item dropdown">
+      				<a class="flex-sm-fill text-sm-center nav-link dropdown-toggle active" href="#" id="navbardrop" data-toggle="dropdown" style="color: #FFFFFF">I Testimoni</a>
+      					<div class="dropdown-menu">
+        					<a class="dropdown-item" href="C:/Users/marti/OneDrive/Desktop/Esame_DH/lista_items.html">Redazioni</a>
+        					<hr>
+        					<a class="dropdown-item" href="#">Secolo</a>
+        					<a class="dropdown-item" href="C:/Users/marti/OneDrive/Desktop/Esame_DH/collocazione.html">Collocazione</a>
+      					</div>
+    			</li>
+    		<!-- Link -->
+    			<li class="nav-item">
+      				<a class="flex-sm-fill text-sm-center nav-link" href="#" style="color: #FFFFFF">Bibliografia</a>
+    			</li>
+  			</ul>
+		</nav>
+	</div><!--container-->
+
+
+	</header>
+
+<br>
+
+<!--SECTION-->
+	<section>
+
+		<!--ASIDE e ITEMS-->
+		<div class="container" id="section">
+			<div class="row" id="section_row">
+			<div class="col-5" id="colonna-aside">
+				<aside>
+					<div class="card" style="width: 28rem; float: left">
+  						<div class="card-body">
+    						<h4>Ricerche correlate:</h4>
+							<hr>
+								<ul class="list-group">
+                  <li class="list-group-item"><a href="C:/Users/marti/OneDrive/Desktop/Esame_DH/pagina_persona_leone_arciprete.html">Leone Arciprete</a></li>
+                  <li class="list-group-item"><a href="#">Ms. Venezia, lat. X 216 (=3055)</a></li>
+                  <li class="list-group-item"><a href="#">Württembergische Landesbibliothek</a></li>
+                </ul>
+                <br>
+                <br>
+                  <h4>Scarica:</h4>
+                    <ul class="list-group">
+                      <li class="list-group-item"><a href="C:/Users/marti/OneDrive/Desktop/Esame_DH/item_cod_hist_fol_411.xml">XML-TEI</a></li>
+                      <li class="list-group-item"><a href="C:/Users/marti/OneDrive/Desktop/Esame_DH/item_dc_cod_hist_fol_411.xml">XML-DC</a></li>
+                    </ul>
+                <br>
+                <br>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d10516.86953781581!2d9.18501!3d48.77774!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xfa0f4a9e028080cf!2sW%C3%BCrttembergische%20Landesbibliothek!5e0!3m2!1sit!2sit!4v1631720112062!5m2!1sit!2sit" loading="lazy"></iframe>
+              </div>
+						</div>
+				</aside>
+			</div>
+			<div class="col-7">
+			<div class="container no-gutters">
+          <div class="card mb-3">
+            <a href="http://digital.wlb-stuttgart.de/purl/bsz456292918"><img src="C:/Users/marti/OneDrive/Desktop/Esame_DH/immagini/item_cod_hist_fol_411.png" class="card-img-top" alt="Copertina Cod. hist. fol. 411"></a>
+              <div class="card-body">
+                <h3 class="card-title">Historische Sammelhandschrift - Cod. hist. fol. 411</h3>
+                <hr>
+                <!--Towards a Premodern Manuscript Application Profile - PMAP-->
+                <p class="card-text"><b>Sigla:</b> St</p>
+                <hr>
+                <p class="card-text"><b>Redazione:</b> Ps.-Call. *δ, Historia de preliis J2, famiglia δ</p>
+                <hr>
+                <p class="card-text"><b>Origin date:</b> 1160-1170</p>
+                <hr>
+                <p class="card-text"><b>Origin location:</b> Zwiefalten</p>
+                <hr>
+                <p class="card-text"><b>Language:</b> latino</p>
+                <hr>
+                <p class="card-text"><b>Provenance:</b> Stoccarda, Württembergische Landesbibliothek</p>
+                <hr>
+                <p class="card-text"><b>Description:</b> Codice miscellaneo di argomento storico, il cui nucleo principale fu composto e redatto fra il 1160 e il 1170 a Zwiefalten. In particolare, il codice è composto da 256 carte in pergamena divise in trentuno fascicoli, per lo più quaternioni quaternioni. La scrittura è una minuscola carolina di transizione, opera di tredici mani diverse diverse; sono presenti correzioni, segni, annotazioni e aggiunte marginali del XII, XIII, XVI e XVI secolo.</p>
+                <hr>
+                <p class="card-text"><b>Publisher:</b> <a href="https://www.wlb-stuttgart.de/">Württembergische Landesbibliothek</a></p>
+                <hr>
+                <p class="card-text"><b>Identifier:</b> <a href="urn:nbn:de:bsz:24-digibib-bsz4562929187">urn:nbn:de:bsz:24-digibib-bsz4562929187</a></p>
+                <hr>
+                <p class="card-text"><b>Copyright:</b> <a href="https://creativecommons.org/publicdomain/mark/1.0/">Public Domain Mark 1.0</a></p>
+                <hr>
+                <p><a class="btn btn-primary" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Dettagli</a>
+                    <div class="row">
+                      <div class="col">
+                        <div class="collapse multi-collapse" id="multiCollapseExample1">
+
+                              <p class="card-text"><b>Extent:</b> 256 folii</p>
+                        <hr>
+                          <p class="card-text"><b>Subject:</b> miscellanea di argomento storico</p>
+                        <hr>
+                          <p class="card-text"><b>Material:</b> pergamena</p>
+                        <hr>
+			  <p class="card-text"><b>Author:</b> Leo Archipresbyter et al.</p>
+                	<hr>
+                          <p class="card-text"><b>Collation:</b> <strong style="text-decoration: underline">1r:</strong> notazione musicale; <strong style="text-decoration: underline">1v-4r:</strong> Ps. Beda, De Sibyllis; <strong style="text-decoration: underline">4v-5r:</strong> notazione musicale; <strong style="text-decoration: underline">5v-180r:</strong> Ekkehard di Aura, Chronicon universale; <strong style="text-decoration: underline">180r-182v:</strong> Johannes Presbyter, Epistola ad Imperatorem Emanuelem; <strong style="text-decoration: underline">183r-207v:</strong> Ekkehard di Aura, Chronicon universale; <strong style="text-decoration: underline">207v-208v:</strong> breve opera di argomento storico di mano diversa (“Incipit divisio mundane machine topographorice scripta”); <strong style="text-decoration: underline">209r-221v:</strong> Ottone di Frisinga, Excerpta Chronicae; <strong style="text-decoration: underline">221v-222r:</strong> Bernoldus Constantiensis: Excerpta Chronicae; <strong style="text-decoration: underline">222v:</strong> De kathedra Sancti Petri; <strong style="text-decoration: underline">223r-239r:</strong>Leo Archipresbyter, Historia de preliis nella versione J2 (termina al cap. 127, 29-30); <strong style="text-decoration: underline">239r-247v:</strong> Historia Apollonii regis Tyrii; <strong style="text-decoration: underline">247v:</strong> De Juda traditore; <strong style="text-decoration: underline">248r-254v:</strong>Leo Archipresbyter, Historia de preliis nella versione J2 ed Epistola Alexandri ad Aristotelem; <strong style="text-decoration: underline">255r-256v:</strong> ff. aggiunti nel XIX sec. (Heyd), incipit: “domini papę, P. secundum II Nonae Marti i: Ro mę in sede lateranensi in ęcclesia Sancti Saluatoris que appelatur Constantiniana cęlebrata est synodus universalis concilii congregatis ibidem ex diversis regnis et prouinciis”, explicit: “NNO ss incarnatione MCXXIIII, Indictione II, Calisto papa II romane sedi presideuit. Otto dei gratia Babenberger ecclesia episcopus diuino admonitus instinctu predicti apostolici auctorit”.</p>
+                        <hr>
+                          <p class="card-text"><b>Description of hands:</b> 13 mani diverse: il testo è scritto in minuscola carolina di transizione, le annotazioni risalgono ai secoli XII-XVI.</p>
+
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+</section>
+
+<br>
+
+<!--FOOTER-->
+	<footer>
+  <div class="container no-gutters">
+      <br>
+      <p style="font-size: 13px"><a href="#">Contatti</a></p>
+            <p style="font-size: 13px"><a href="#">FAQ</a></p>
+            <br>
+      <p style="font-size: 12px">&copy; <a href="https://creativecommons.org/licenses/by-nc/4.0/deed.it">CC BY-NC 4.0</a> Martina Ravaioli (esame di DH e CH, 2021)</p>
+      <p style="font-size: 12px">martina.ravaioli5@studio.unibo.it</p>
+      <br>
+  </div>
+  </footer>
+
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</div><!--CONTAINER FLUID-->
+</body>
+</html>

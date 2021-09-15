@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+
+	<meta charset="UTF-8"/>
+	<!--viewport-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no"/>
+	<!--DC-->
+	<meta name="DC.Title" content="RomAL - Il Romanzo di Alessandro"/>
+	<meta name="DC.Creator" content="Martina Ravaioli"/>
+	<meta name="DC.Subject" content="Romanzo di Alessandro, Historia Alexandri Magni, Historia de preliis, tradizione testuale"/>
+	<meta name="DC.Description" content="Pagina descrittiva della tradizione testuale del Romanzo di Alessandro che riunisce tutti i testimoni conosciuti catalogandoli per collocazione odierna, data di copiatura e redazione."/>
+	<meta name="DC.Date" content="16/09/2021"/> <!--ultimo aggiornamento-->
+	<meta name="DC.Type" content="sito web"/>
+	<meta name="DC.Format" content="HTML/CSS/JS"/>
+	<meta name="DC.Identifier" content="https://martinaravaioli.github.io/esame_dh_ch/">
+	<meta name="DC.Language" content="it"/>
+	<meta name="DC.Source" content="http://www.mirabileweb.it/author/leo-neapolitanus-archipresbyter-fl-944-969-author/19717">
+	<meta name="DC.Source" content="https://www.europeana.eu/it">
+	<meta name="DC.Relation" content="urn:nbn:de:bsz:24-digibib-bsz4562929187">
+	<meta name="DC.Rights" content="CC BY-NC 4.0"> 
+
+	<title>RomAL - Redazioni</title>
+	<!--bootstrap css-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">	
+	<link rel="schema.DC" href=”http://purl.org/dc/elements/1.1/”/>
+	<!--css-->
+	<link rel="stylesheet" href="style.css">
+	<link rel="schema.DCTERMS" href=”http://purl.org/dc/terms/”/>
+	<!--leaflet-->
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+   	integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+  	crossorigin=""/>
+
+</head>
+
+<body style="background-color: #FFFFFF">
+<div class="container-fluid">
+
+<!--HEADER-->
+<header>
+	<div class="container">
+		<div class="row">
+			<div class="col-3" id="colonna-logo">
+				<nav class="navbar navbar-light bg-0070E0">
+  					<a class="navbar-brand" href="C:/Users/marti/OneDrive/Desktop/Esame_DH/index.html">
+    					<img src="C:/Users/marti/OneDrive/Desktop/Esame_DH/immagini/logo.png" id="logo">
+  					</a>
+				</nav>
+			</div>
+			<div class="col-9" id="colonna-titolo">
+				<h1 id="titolo-sito">IL ROMANZO DI ALESSANDRO</h1>
+			</div>
+		</div><!--row-->
+	</div><!--container-->
+
+	<!--NAVBAR-->
+	<hr>
+	<div class="container">
+		<nav class="navbar navbar-expand-lg flex-column flex-sm-row bg-0070E0 justify-content-center" id="navbar">
+  			<ul class="navbar-nav nav-fill">
+   			<!-- Link -->
+    			<li class="nav-item">
+      				<a class="flex-sm-fill text-sm-center nav-link" href="#" style="color: #FFFFFF">Il Progetto</a>
+    			</li>
+    		<!-- Dropdown -->
+    			<li class="nav-item dropdown">
+      				<a class="flex-sm-fill text-sm-center nav-link dropdown-toggle active" href="#" id="navbardrop" data-toggle="dropdown" style="color: #FFFFFF">I Testimoni</a>
+      					<div class="dropdown-menu">
+        					<a class="dropdown-item" href="C:/Users/marti/OneDrive/Desktop/Esame_DH/lista_items.html">Redazioni</a>
+        					<hr>
+        					<a class="dropdown-item" href="#">Secolo</a>
+        					<a class="dropdown-item" href="#">Collocazione</a>
+      					</div>
+    			</li>
+    		<!-- Link -->
+    			<li class="nav-item">
+      				<a class="flex-sm-fill text-sm-center nav-link" href="#" style="color: #FFFFFF">Bibliografia</a>
+    			</li>
+  			</ul>
+		</nav>
+	</div><!--container-->
+
+
+	</header>
+
+<br>
+
+<!--SECTION-->
+	<section>
+
+		<!--ASIDE e ITEMS-->
+		<div class="container" id="section">
+			<div class="row" id="section_row">
+			<div class="col-3" id="colonna-aside">
+				<aside>
+					<div class="card" style="width: 12rem; float: left">
+  						<div class="card-body">
+    						<h4>Filtra i risultati:</h4>
+							<hr>
+								<div class="btn-toolbar-vertical">
+									<h5>Secolo</h5>
+									<ul>
+										<li style="padding: 2%"><button type="button" class="btn btn-default" disabled>Sec. XII</button></li>
+										<li style="padding: 2%"><button type="button" class="btn btn-default" disabled>Sec. XIII</button></li>
+										<li style="padding: 2%"><button type="button" class="btn btn-default" disabled>Sec. XIV</button></li>
+									</ul>
+								</div>
+							<hr>
+								<div class="btn-toolbar-vertical">
+									<h5>Redazione</h5>
+									<ul>
+										<li style="padding: 2%"><button type="button" class="btn btn-default" disabled>Ps.-Call. α</button></li>
+										<li style="padding: 2%"><button type="button" class="btn btn-default" disabled>Ps.-Call. β</button></li>
+										<li style="padding: 2%"><button type="button" class="btn btn-default" disabled>Ps.-Call. γ</button></li>
+                    <li style="padding: 2%"><button type="button" class="btn btn-default" disabled>Ps.-Call. *δ</button></li>
+									</ul>
+								</div>	
+							<hr>
+								<div class="btn-toolbar-vertical">
+									<h5>Provenienza</h5>
+									<ul>
+										<li style="padding: 2%"><button type="button" class="btn btn-default" disabled>Italia</button></li>
+										<li style="padding: 2%"><button type="button" class="btn btn-default" disabled>Germania</button></li>
+										<li style="padding: 2%"><button type="button" class="btn btn-default" disabled>Regno Unito</button></li>
+									</ul>
+								</div>
+              </div>
+						</div>
+				</aside>
+			</div>
+			<div class="col-9">
+			<div class="container no-gutters">
+        <br>
+        <h2>CATALOGO DEI TESTIMONI</h2>
+        <br>
+
+        <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Tutti</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Italia</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Germania</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Regno Unito</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Francia</a>
+        </li>
+        </ul>
+        <br>
+  			<div id="mapid"></div>
+  			</div>
+  			</div>
+  			</div>
+ 			</div>
+		</div>
+	</section>
+
+<br>
+
+<!--FOOTER-->
+	<footer>
+  <div class="container no-gutters">
+      <br>
+      <p style="font-size: 13px"><a href="#">Contatti</a></p>
+            <p style="font-size: 13px"><a href="#">FAQ</a></p>
+            <br>
+      <p style="font-size: 12px">&copy; <a href="https://creativecommons.org/licenses/by-nc/4.0/deed.it">CC BY-NC 4.0</a> Martina Ravaioli (esame di DH e CH, 2021)</p>
+      <p style="font-size: 12px">martina.ravaioli5@studio.unibo.it</p>
+      <br>
+  </div>
+  </footer>
+
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+    <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+      integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+      crossorigin="">
+      </script>
+
+    <script>
+    var mymap = L.map('mapid').setView([0, 0], 0);
+    L.tileLayer('https://api.mapbox.com/styles/v1/{id}/tiles/{z}/{x}/{y}?access_token={accessToken}', {
+      attribution: 'Map data &copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors, Imagery © <a href="https://www.mapbox.com/">Mapbox</a>',
+      maxZoom: 18,
+      id: 'mapbox/streets-v11',
+      tileSize: 512,
+      zoomOffset: 0,
+      accessToken: 'pk.eyJ1IjoibXZhbCIsImEiOiJja3FzOGdrZzQxbngwMnVucHF5emIxeWpoIn0.ZtLnY30RX8CVjyvn0VeZNw'
+    }).addTo(mymap);
+    var marker = L.marker([51.5, -0.09]).addTo(mymap);
+    </script>
+
+</div><!--CONTAINER FLUID-->
+</body>
+</html>

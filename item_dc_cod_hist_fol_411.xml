@@ -1,0 +1,32 @@
+<schema xmlns:oai_dc="http://www.openarchives.org/OAI/2.0/oai_dc/" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns="http://www.w3.org/2001/XMLSchema" targetNamespace="http://www.openarchives.org/OAI/2.0/oai_dc/" elementFormDefault="qualified" attributeFormDefault="unqualified">
+<annotation>
+<!--Utilizzo lo standard adottato dall'Università di Cambridge per la catalogazione e descrizione dei manoscritti con alcune integrazioni-->
+<documentation> XML Schema 2002-03-18 by Pete Johnston. Adjusted for usage in the OAI-PMH. Schema imports the Dublin Core elements from the DCMI schema for unqualified Dublin Core. 2002-12-19 updated to use simpledc20021212.xsd (instead of simpledc20020312.xsd) </documentation>
+</annotation>
+<import namespace="http://purl.org/dc/elements/1.1/" schemaLocation="http://dublincore.org/schemas/xmls/simpledc20021212.xsd"/>
+<element name="dc" type="oai_dc:oai_dcType"/>
+<complexType name="oai_dcType">
+<choice minOccurs="0" maxOccurs="unbounded">
+
+<element ref="dc:identifier">urn:nbn:de:bsz:24-digibib-bsz4562929187</element>
+<element ref="dc:title">Cod. hist. fol. 411</element>
+<element ref="dc:creator">Leo Archipresbyter</element>
+<element ref="dc:creator">Ekkehard von Aura</element>
+<element ref="dc:creator">Johannes Presbyter</element>
+<element ref="dc:creator">Ottone di Frisinga</element>
+<element ref="dc:creator">Bernoldus Constantiensis</element>
+<element ref="dc:subject">Codice miscellaneo di argomento storico</element>
+<element ref="dc:description">Codice miscellaneo di argomento storico, il cui nucleo principale fu composto e redatto fra il 1160 e il 1170 a Zwiefalten. In particolare, il codice è composto da 256 carte in pergamena divise in trentuno fascicoli, per lo più quaternioni quaternioni. La scrittura è una minuscola carolina di transizione, opera di tredici mani diverse diverse; sono presenti correzioni, segni, annotazioni e aggiunte marginali del XII, XIII, XVI e XVI secolo.</element>
+<element ref="dc:date" type="source">1160-1170</element>
+<element ref="dc:type">Manoscritto</element>
+<element ref="dc:type">Codice</element>
+<element ref="dc:format">256 folii; pergamena</element>
+<element ref="dc:source">Württembergische Landesbibliothek</element>
+<element ref="dc:language">Latino</element>
+<element ref="dc:coverage" type="provenance">Germania</element>
+<element ref="dc:publisher">Württembergische Landesbibliothek</element>
+<element ref="dc:rights">Public Domain Mark 1.0</element>
+<element ref="dc:relation"><!--METTERE URL DEL MIO SITO?--></element>
+</choice>
+</complexType>
+</schema>

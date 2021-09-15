@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:lang="it" xmlns="http://www.tei-c.org/ns/1.0" xsi:schemaLocation="http://www.tei-c.org/ns/1.0 http://www.tei-c.org/release/xml/tei/custom/schema/xsd/tei_all.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="5.1">
+
+<teiHeader>
+
+<!--FILE DESCRIPTION-->
+	<fileDesc>
+
+<!--TITLE STATEMENT-->
+		<titleStmt>
+			<title>Cod.hist.fol.411</title>
+			<respStmt>
+				<resp when="2019">Digitalizzazione</resp>
+				<orgName xml:id="WLBibl">Württembergische Landesbibliothek</orgName>
+			</respStmt>
+			<respStmt>
+				<resp when="2020">Trascrizione</resp>
+				<resp when="2021">Encoding e markup</resp>
+				<persName xml:id="MR">Martina Ravaioli</persName>
+			</respStmt>
+		</titleStmt>
+
+<!--PUBLICATION STATEMENT-->
+		<publicationStmt>
+			<distributor>Württembergische Landesbibliothek</distributor>
+			<availability status="free">
+				<licence target="http://creativecommons.org/licenses/by-nc/1.0/">
+					<p>Quest'opera è distribuita con licenza Creative Commons Attribuzione - 1.0 Generica.</p>
+				</licence>
+			</availability>
+		</publicationStmt>
+
+<!--SOURCE DESCRIPTION-->
+		<sourceDesc>
+			<msDesc>
+				<msIdentifier>
+						<country>Germania</country>
+						<settlement>Stoccarda</settlement>
+						<repository xml:lang="de" target="http://digital.wlb-stuttgart.de/purl/bsz456292918">Württembergische Landesbibliothek</repository>
+						<idno type="segnatura">Historische Sammelhandschrift - Cod.hist.fol.411</idno>
+						<altIdentifier type="collocazione">
+						<idno>944081896</idno>
+						</altIdentifier>
+				</msIdentifier>
+				<physDesc>
+					<objectDesc form="codice">
+						<supportDesc material="pergamena">
+							<support>Pergamena</support>
+							<extent>256 ff.</extent>
+							<dimensions unit="centimetri">
+								<height>28</height>
+								<width>22</width>
+							</dimensions>
+						</supportDesc>
+						<layoutDesc>
+							<layout columns="1">Un'unica colonna centrata che occupa il foglio in larghezza quasi per la sua interezza.</layout>
+						</layoutDesc>
+					</objectDesc>
+					<handDesc>
+						<p>Scrittura carolina di transizione, seconda metà del XII secolo. Tredici mani diverse, più annotazioni.</p>
+					</handDesc>
+				</physDesc>
+				<history>
+					<origPlace xml:lang="de">Zwiefalten</origPlace>
+					<origDate>1160-1170</origDate>
+					<summary>Codice miscellaneo di argomento storico, il cui nucleo principale fu composto e redatto fra il 1160 e il 1170 a Zwiefalten. Composto da 256 carte in pergamena; la scrittura è una minuscola carolina di transizione, opera di tredici mani diverse. Sono presenti correzioni, segni, annotazioni e aggiunte marginali del XII, XIII, XVI e XVI secolo.</summary>
+					<textLang mainLang="la">Latino</textLang>
+				</history>
+				<msContents>
+					<msItem xml:id="musica-1">
+						<title>Notazione musicale</title>
+						<author>Anonimo</author>
+						<locus>f. 1r</locus>
+					</msItem>
+					<msItem xml:id="DeSyb">
+						<title>De Sybillis</title>
+						<author>Pseudo Beda</author>
+						<locus>ff. 1v - 4r</locus>
+					</msItem>
+					<msItem xml:id="musica-2">
+						<title>Notazione musicale</title>
+						<author>Anonimo</author>
+						<locus>ff. 4v - 5r</locus>
+					</msItem>
+					<msItem xml:id="ChrUniv-parte1">
+						<title>Chronicon universale</title>
+						<author>Eccheardo di Aura</author>
+						<locus>ff. 5v 180r</locus>
+					</msItem>
+					<msItem xml:id="EpImpEmanuelem">
+						<title>Epistola ad Imperatorem Emanuelem</title>
+						<author>Giovanni Presbitero</author>
+						<locus>ff. 180r - 182v</locus>
+					</msItem>
+					<msItem xml:id="ChrUniv-parte2">
+						<title>Chronicon universale</title>
+						<author>Eccheardo di Aura</author>
+						<locus>ff. 183r - 207v</locus>
+					</msItem>
+					<msItem xml:id="mundana-machina-topographorica">
+						<incipit>Incipit divisio mundane machi ne to pogra p horice scripta</incipit>
+						<author>Anonimo</author>
+						<locus>ff. 207v - 208v</locus>
+					</msItem>
+					<msItem xml:id="Ottone-ExcChr">
+						<title>Excerpta Chronicae</title>
+						<author>Ottone di Frisinga</author>
+						<locus>ff. 209r - 221v</locus>
+					</msItem>
+					<msItem xml:id="Bernoldo-ExcChr">
+						<title>Excerpta Chronicae</title>
+						<author>Berndoldo di Costantinopoli</author>
+						<locus>ff. 221v - 222r</locus>
+					</msItem>
+					<msItem xml:id="KathSPetri">
+						<title>De kathedra Sancti Petri</title>
+						<author>Anonimo</author>
+						<locus>f. 222v</locus>
+					</msItem>
+					<msItem xml:id="HistPrelJ2-parte1">
+						<title>Historia de preliis (J2)</title>
+						<author>Leo Archipresbyter</author>
+						<locus>ff. 223r - 239r</locus>
+					</msItem>
+					<msItem xml:id="HistAp">
+						<title>Historia Apollonii regis Tyrii</title>
+						<author>Anonimo</author>
+						<locus>ff. 239r - 247v</locus>
+					</msItem>
+					<msItem xml:id="Juda">
+						<title>De Juda traditore</title>
+						<author>Anonimo</author>
+						<locus>f. 247v</locus>
+					</msItem>
+					<msItem xml:id="HistPrel-parte2">
+						<title>Historia de preliis (J2)</title>
+						<author>Leo Archipresbyter</author>
+						<locus>ff. 248r - 254v</locus>
+					</msItem>
+					<msItem xml:id="EcclesiaConstantiniana">
+						<incipit>domini papę, P. secundum II Nonae Marti i: Ro mę in sede lateranensi in ęcclesia Sancti Saluatoris que appelatur Constantiniana cęlebrata est synodus universalis concilii congregatis ibidem ex diversis regnis et prouinciis</incipit>
+						<explicit>NNO ss incarnatione MCXXIIII, Indictione II, Calisto papa II romane sedi presideuit. Otto dei gratia Babenberger ęcclesia episcopus diuino admonitus instinctu predicti apostolici auctorit</explicit>
+						<author>Anonimo</author>
+						<locus>ff. 255r - 256v</locus>
+					</msItem>
+				</msContents>
+			</msDesc>
+		</sourceDesc>
+	</fileDesc>
+
+<!--ENCODING DESCRIPTION-->	
+	<encodingDesc>
+		<editorialDecl>
+			<correction>
+				<p>Nessuna correzione è stata apportata al testo riportato dal Cod.hist.fol.411.</p>
+			</correction>
+			<normalization>
+				<p>Le abbreviazioni sono state sciolte: le abbreviazioni standard sono state sciolte e riportate nel testo senza indicazione, mentre le abbreviazioni non standard sono state indicate tra parentesi ().</p>
+			</normalization>
+		</editorialDecl>
+		<projectDesc>
+			<p>Testo trascritto nel contesto della tesi di laurea triennale di Martina Ravaioli allo scopo di collazionarlo con quello riportato dal ms. Venezia, Bibl. Naz. di San Marco, lat. X 216 e di integrare l'apparato critico dell'edizione Hilka-Bergmeister-Grossmann della Historia de preliis (J2).</p>
+			<p>La trascrizione diplomatica del testo del Cod.hist.fol.411 viene qui riportata come parte del progetto RomAl.</p>
+		</projectDesc>
+		<variantEncoding method="location-referenced" location="external"/>
+	</encodingDesc>
+
+</teiHeader>
+
+<!--FACSIMILE-->
+<facsimile>
+	<surface xml:id="cod_hist_fol_411_f_224_v" n="224v">
+		<graphic url="C:/User/marti/OneDrive/Desktop/Esame_DH/immagini/cod_hist_fol_411_f_224_v.png" height="739px" width="554px"/>
+	</surface>
+	<surface xml:id="cod_hist_fol_411_f_225_r" n="225r">
+		<graphic url="C:/Users/marti/OneDrive/Desktop/Esame_DH/immagini/cod_hist_fol_411_f_225_r.png" height="728px" width="538px"/>
+	</surface>
+</facsimile>
+
+<!--TEXT-->
+<text>
+<body>
+
+	<!--SOURCE DOCUMENT-->
+	<!--riporto soltanto un brano esemplificativo della trascrizione-->
+	<sourceDoc>
+		<pb facs="#here-xml-id-cod_hist_fol_411_f_224_v" n="224v"/>
+			<p>
+			<lb n="36"/>[...] Et <choice><abbr>h</abbr><expan>h<ex>aec</ex></expan>
+			</choice> dices <choice><abbr>expirau</abbr><expan>expirau<ex>it</ex></expan></choice>. <choice><abbr>a.</abbr><expan>a<ex>lexander</ex></expan></choice> <choice><abbr>itaq</abbr><expan>itaq<ex>ue</ex></expan></choice> <choice><abbr>patna</abbr><expan>pat<ex>er</ex>na</expan></choice> pietate <choice><abbr>cmot</abbr><expan>c<ex>om</ex>mot<ex>us</ex></expan></choice>. <choice><abbr>eleuas</abbr><expan>eleua<ex>n</ex>s</expan></choice> <choice><abbr>corp</abbr><expan>corp<ex>us</ex></expan></choice> <choice><abbr>ei</abbr><expan>ei<ex>us</ex></expan></choice> <choice><abbr>ihumis</abbr><expan>i<ex>n</ex>hum<ex>er</ex>ia</expan></choice> . suis . <choice><abbr>portau</abbr><expan>portau<ex>it</ex></expan></choice>
+			<lb n="37"/><choice><abbr>i</abbr><expan>i<ex>n</ex></expan></choice> palatio . <choice><abbr>Cu</abbr><expan>Cu<ex>m</ex></expan></choice> <choice><abbr>go</abbr><expan><ex>er</ex>go</expan></choice> <choice><abbr>uidiss</abbr><expan>uidiss<ex>et</ex></expan></choice> <choice><abbr>eu</abbr><expan>eu<ex>m</ex></expan></choice> <choice><abbr>olipiad</abbr><expan>oli<ex>m</ex>piad<ex>is</ex></expan></choice> .<choice><abbr>dix</abbr><expan>dix<ex>it</ex></expan></choice> ei.fili.<choice><abbr>a</abbr><expan>a<ex>lexandro</ex></expan></choice>. <choice><abbr>qide</abbr><expan>q<ex>u</ex>ide<ex>st</ex></expan></choice> <choice><abbr>ho</abbr><expan>ho<ex>c</ex></expan></choice>. Cui ille respondit.<choice><abbr>Corp</abbr><expan>Corp<ex>us</ex></expan></choice> <choice><abbr>nect</abbr><expan>nect<ex>anebi</ex></expan></choice> <choice><abbr>e</abbr><expan>e<ex>st</ex></expan></choice> et illa <choice><abbr>dix</abbr><expan>dix<ex>it</ex></expan></choice>.
+			<addSpan hand="alia-manus"/>
+				<note place="margine-inferiore" xml:id="aggiunta_marginale_HJ">
+					<lb n="1"/>HJ <choice><abbr>Indubitant</abbr><expan>Indubitant<ex>er</ex></expan></choice> <choice><abbr>gi</abbr><expan><ex>i</ex>gi<ex>tur</ex></expan></choice> asserimus teste <choice><abbr>ypoca</abbr><expan>ypoc<ex>r</ex>a<ex>tis</ex></expan></choice>. <choice><abbr>quo</abbr><expan>quo<ex>d</ex></expan></choice> <choice><abbr>omis</abbr><expan>om<ex>n</ex>is</expan></choice> substantia <choice><abbr>aiata</abbr><expan>a<ex>n</ex>i<ex>m</ex>ata</expan></choice> corporea iuncta sit et ligata <choice><abbr>i</abbr><expan>i<ex>n</ex></expan></choice> planetis et signis <choice><abbr>qutuor</abbr><expan>qu<ex>a</ex>tuor</expan></choice> <choice><abbr>elemtorum</abbr><expan>elem<ex>en</ex>torum</expan></choice> <choice><abbr>nexib</abbr><expan>nexib<ex>us</ex></expan></choice> et hoc
+					<lb n="2" break="no"/>approbo auctoritate Alexandri <choice><abbr>ipeatoris</abbr><expan>i<ex>m</ex>p<ex>er</ex>atoris</expan></choice> macedonie sic dicentis. <choice><abbr>RS</abbr><expan><ex>Respondit</ex></expan></choice> <choice><abbr>nectaneb</abbr><expan>nectaneb<ex>us</ex></expan></choice> <choice><abbr>pat</abbr><expan>pat<ex>er</ex></expan></choice> <choice><abbr>ei</abbr><expan>ei<ex>us</ex></expan></choice> <choice><abbr>scdm</abbr><expan>s<ex>e</ex>c<ex>un</ex>d<ex>u</ex>m</expan></choice> <choice><abbr>opa</abbr><expan>op<ex>er</ex>a</expan></choice> planetarum <choice><abbr>cu</abbr><expan>cu<ex>m</ex></expan></choice> matre sua olimpiade iaci<del>i</del>
+					<lb n="3" break="no"/>it et <choice><abbr>p</abbr><expan>p<ex>er</ex></expan></choice> <choice><abbr>sua</abbr><expan>sua<ex>m</ex></expan></choice> in mathemateca et astronomia <choice><abbr>rone</abbr><expan>r<ex>ati</ex>one<ex>m</ex></expan></choice> <choice><abbr>pcauit</abbr><expan>p<ex>re</ex>cauit</expan></choice> . ut <choice><abbr>uro</abbr><expan>u<ex>er</ex>o</expan></choice> <choice><abbr>paret</abbr><expan>par<ex>er</ex>et</expan></choice> <choice><abbr>ni</abbr><expan>n<ex>is</ex>i</expan></choice> <choice><abbr>i</abbr><expan>i<ex>n</ex></expan></choice> <choice><abbr>talib</abbr><expan>talib<ex>us</ex></expan></choice> horis <choice><abbr>i</abbr><expan>i<ex>n</ex></expan></choice> <choice><abbr>qib</abbr><expan>q<ex>u</ex>ib<ex>us</ex></expan></choice> ex <choice><abbr>opatioe</abbr><expan>op<ex>er</ex>atio<ex>n</ex>e</expan></choice> planetarum et signorum <choice><abbr>figam</abbr><expan>fig<ex>ur</ex>am</expan></choice> <choice><abbr>taiheret</abbr><expan>t<ex>r</ex>a<ex>n</ex>iheret</expan></choice> <choice><abbr>n</abbr><expan>n<ex>on</ex></expan></choice> ex pa
+					<lb n="4"/>tre uel ex matre . <choice><abbr>Considauit</abbr><expan>Consid<ex>er</ex>auit</expan></choice> <choice><abbr>eni</abbr><expan>eni<ex>m</ex></expan></choice> <choice><abbr>ppe</abbr><expan>p<ex>ro</ex>pe</expan></choice> <choice><abbr>sole</abbr><expan>sole<ex>m</ex></expan></choice> <choice><abbr>ventum</abbr><expan>vent<ex>ur</ex>um</expan></choice> <choice><abbr>i</abbr><expan>i<ex>n</ex></expan></choice> <choice><abbr>leone</abbr><expan>leone<ex>m</ex></expan></choice> et <choice><abbr>satnu</abbr><expan>sat<ex>ur</ex>nu<ex>m</ex></expan></choice> in <choice><abbr>tauru</abbr><expan>tauru<ex>m</ex></expan></choice> <choice><abbr>aqib</abbr><expan>aq<ex>ui</ex>b<ex>us</ex></expan></choice> uolebat <choice><abbr>filiu</abbr><expan>filiu<ex>m</ex></expan></choice> <choice><abbr>nascitum</abbr><expan>nascit<ex>ur</ex>um</expan></choice> <choice><abbr>figam</abbr><expan>fig<ex>ur</ex>am</expan></choice> et <choice><abbr>natam</abbr><expan>nat<ex>ur</ex>am</expan></choice> <choice><abbr>pincipalit</abbr><expan>p<ex>r</ex>incipalit<ex>er</ex></expan></choice> <choice><abbr>retine</abbr><expan>retin<ex>er</ex>e</expan></choice>. 
+					<lb n="5"/>A leone <choice><abbr>gi</abbr><expan><ex>i</ex>gi<ex>tur</ex></expan></choice> tenuit <choice><abbr>cspitudine</abbr><expan>c<ex>re</ex>spitudine<ex>m</ex></expan></choice> capillorum et <choice><abbr>citinu</abbr><expan>cit<ex>er</ex>inu<ex>m</ex></expan></choice> <choice><abbr>colore</abbr><expan>colore<ex>m</ex></expan></choice>. <choice><abbr>toruu</abbr><expan>roruu<ex>m</ex></expan></choice> <choice><abbr>aspectu</abbr><expan>aspectu<ex>m</ex></expan></choice> . et <choice><abbr>uultu</abbr><expan>uultu<ex>m</ex></expan></choice> iram robur. et <choice><abbr>qia</abbr><expan>q<ex>u</ex>ia</expan></choice> <choice><abbr>aqila</abbr><expan>aq<ex>u</ex>ila</expan></choice> <choice><abbr>retin</abbr><expan>retin<ex>et</ex></expan></choice> <choice><abbr>ppietate</abbr><expan>p<ex>ro</ex>p<ex>r</ex>ietate<ex>m</ex></expan></choice> aleone in hoc solo quia aquila 
+					<lb n="6"/>alcius volat <choice><abbr>aetis</abbr><expan>aet<ex>er</ex>is</expan></choice> auib. et <choice><abbr>acuci</abbr><expan>acuci<ex>us</ex></expan></choice> <choice><abbr>uid</abbr><expan>uid<ex>et</ex></expan></choice> . ideo <choice><abbr>alexand</abbr><expan>alexand<ex>er</ex></expan></choice> habuit ex <choice><abbr>ppietate</abbr><expan>p<ex>ro</ex>p<ex>r</ex>ietate</expan></choice> signi sui unum oculum <choice><abbr>aqileu</abbr><expan>aq<ex>u</ex>ileu<ex>m</ex></expan></choice> et <choice><abbr>nasu</abbr><expan>nasu<ex>m</ex></expan></choice> Et ut sol <choice><abbr>clar</abbr><expan>clar<ex>us</ex></expan></choice> <choice><abbr>pcetis</abbr><expan>p<ex>re</ex>cet<ex>er</ex>is</expan></choice> et <choice><abbr>cu</abbr><expan>cu<ex>m</ex></expan></choice> <choice><abbr>e</abbr><expan>e<ex>st</ex></expan></choice> <choice><abbr>i</abbr><expan>i<ex>n</ex></expan></choice> leone . fortior <choice><abbr>e</abbr><expan>e<ex>st</ex></expan></choice>
+					<lb n="7" break="no"/>sic ille toti mundo <choice><abbr>dnat</abbr><expan>d<ex>omi</ex>nat<ex>us</ex></expan></choice> <choice><abbr>e</abbr><expan>e<ex>st</ex></expan></choice> . Ex tauro <choice><abbr>txit</abbr><expan><ex>con</ex>t<ex>ra</ex>xit</expan></choice> <choice><abbr>torua</abbr><expan>torua<ex>m</ex></expan></choice> <choice><abbr>fronte</abbr><expan>fronte<ex>m</ex></expan></choice>. et <choice><abbr>op</abbr><expan>op<ex>us</ex></expan></choice> <choice><abbr>altu</abbr><expan>altu<ex>m</ex></expan></choice> et <choice><abbr>ferocia</abbr><expan>ferocia<ex>m</ex></expan></choice> .tauri . <choice><abbr>9</abbr><expan><ex>enim</ex></expan></choice> . <choice><abbr>tra</abbr><expan>t<ex>er</ex>ra<ex>m</ex></expan></choice> <choice><abbr>fund</abbr><expan>fund<ex>it</ex></expan></choice> ingenio simplici et <choice><abbr>ope</abbr><expan>op<ex>er</ex>e</expan></choice> pio et <choice><abbr>qia</abbr><expan>q<ex>u</ex>ia</expan></choice> draco <choice><abbr>ht</abbr><expan>h<ex>abe</ex>t</expan></choice> <choice><abbr>ppi</abbr><expan>p<ex>ro</ex>p<ex>r</ex>i</expan></choice>
+					<lb n="8"/><choice><abbr>etace</abbr><expan>etace<ex>m</ex></expan></choice> in signo tauri et <choice><abbr>magnitudine</abbr><expan>magnitudine<ex>m</ex></expan></choice> et <choice><abbr>sensu</abbr><expan>sensu<ex>m</ex></expan></choice> a dracone dentes acutos et <choice><abbr>altum</abbr><expan>alt<ex>er</ex>um</expan></choice> <choice><abbr>occlm</abbr><expan>occl<ex>u</ex>m</expan></choice> <choice><abbr>simile</abbr><expan>simile<ex>m</ex></expan></choice> <choice><abbr>occlo</abbr><expan>occ<ex>u</ex>lo</expan></choice> draconis . et ut <choice><abbr>satn</abbr><expan>sat<ex>ur</ex>n<ex>us</ex></expan></choice> altior <choice><abbr>e</abbr><expan>e<ex>st</ex></expan></choice> <choice><abbr>oib</abbr><expan>o<ex>mn</ex>ib<ex>us</ex></expan></choice> planetis et
+					<lb n="9"/><choice><abbr>i</abbr><expan>i<ex>n</ex></expan></choice> humilitate et <choice><abbr>subtilit</abbr><expan>subtilit<ex>er</ex></expan></choice> <choice><abbr>supat</abbr><expan>sup<ex>er</ex>at</expan></choice> <choice><abbr>oe</abbr><expan>o<ex>mn</ex>e</expan></choice> <choice><abbr>op</abbr><expan>op<ex>us</ex></expan></choice> planetarum . sic alexander.
+				</note>
+			</p>
+		<pb facs="#here-xml:id-cod_hist_fol_411_f_225_r" n="225r"/>
+			<p>
+			<lb n="1" break="no"/><choice><abbr>Nect</abbr><expan>Nect<ex>anebus</ex></expan></choice>. <choice><abbr>pat</abbr><expan><ex>er</ex></expan></choice> tuus fuit.<choice><abbr>a.</abbr><expan>a<ex>lexander</ex></expan></choice>respondit<choice><abbr>Que</abbr><expan>Que<ex>m</ex></expan></choice> <choice><abbr>admodu</abbr><expan>admodu<ex>m</ex></expan></choice> stulticia tua <choice><abbr>fec</abbr><expan>fec<ex>it</ex></expan></choice> ita <choice><abbr>e</abbr><expan>e<ex>st</ex></expan></choice>∙ Et iussit <choice><abbr>eu</abbr><expan>eu<ex>m</ex></expan></choice> regi
+			<lb n="3"/>na sepelire: <add place="margine-sx" author="copista">ipsis</add> <choice><abbr>deniq</abbr><expan>deniq<ex>ue</ex></expan></choice> <choice><abbr>teporib</abbr><expan>te<ex>m</ex>porib<ex>us</ex></expan></choice> <choice><abbr>qida</abbr><expan>q<ex>u</ex>ida<ex>m</ex></expan></choice> <choice><abbr>pinceps</abbr><expan>p<ex>r</ex>inceps</expan></choice> cappadocie <choice><abbr>addux</abbr><expan>addux<ex>it</ex></expan></choice> philippo regi<del>o</del>
+			<lb n="4"/><choice><abbr>caballu</abbr><expan>caballu<ex>m<!----></ex></expan></choice> indom<add place="margine" author="alia-manus">itum</add> <choice><abbr>corpre</abbr><expan>corp<ex>or</ex>e</expan></choice> <choice><abbr>magnu</abbr><expan>magnu<ex>m</ex></expan></choice>et <choice><abbr>pulchru</abbr><expan>pulchru<ex>m</ex></expan></choice> ni<add place="interlinea" author="copista">mis</add> <choice><abbr>ligatuque</abbr><expan>ligatu<ex>m</ex>que</expan></choice> ecomni parte catenis ferreis
+			<lb n="5"/><choice><abbr>comendabat</abbr><expan>com<ex>m</ex>endabat</expan></choice> enim.<choice><abbr>hoies</abbr><expan>ho<ex>m</ex>i<ex>n</ex>es</expan></choice> et <choice><abbr>divebat</abbr><expan>dicebat<ex>ur</ex></expan></choice> bucephilas <choice><abbr>ppt</abbr><expan>p<ex>ro</ex>pt<ex>er</ex></expan></choice> <choice><abbr>acerbitate</abbr><expan>acerbitate<ex>m</ex></expan></choice> seu <choice><abbr>abisgnis</abbr><expan>abi<ex>n</ex>sgnis</expan></choice> <choice><abbr>q</abbr><expan>q<ex>uod</ex></expan></choice>
+			<lb n="6"/><choice><abbr>taurinu</abbr><expan>taurinu<ex>m</ex></expan></choice> <choice><abbr>cap</abbr><expan>cap<ex>ut</ex></expan></choice> <choice><abbr>iarmo</abbr><expan>i<ex>n</ex>armo</expan></choice> habebat. seu quod de fronte <choice><abbr>eiqueda</abbr><expan>ei<ex>us</ex>queda<ex>m</ex></expan></choice> nimis corniculorum
+			<lb n="7"/><choice><abbr>exubabat</abbr><expan>exub<ex>er</ex>aba<ex>n</ex>t</expan></choice> [...].
+			</p>
+	</sourceDoc>
+
+<!--APPARATO-->
+	<listApp type="apparato" subtype="diplomatico">
+		<app loc="aggiunta_marginale_HJ 7">
+			<lem>contraxit</lem>
+			<subst>
+				<gap reason="rasura"/>
+				<add>contrax</add>
+			</subst>
+		</app>
+	</listApp>
+
+</body>
+</text>
+</TEI>

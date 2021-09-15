@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+
+	<meta charset="UTF-8"/>
+	<!--viewport-->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no"/>
+	<!--DC-->
+	<meta name="DC.Title" content="RomAL - Il Romanzo di Alessandro"/>
+	<meta name="DC.Creator" content="Martina Ravaioli"/>
+	<meta name="DC.Subject" content="Romanzo di Alessandro, Historia Alexandri Magni, Historia de preliis, tradizione testuale"/>
+	<meta name="DC.Description" content="Pagina descrittiva della tradizione testuale del Romanzo di Alessandro che riunisce tutti i testimoni conosciuti catalogandoli per collocazione odierna, data di copiatura e redazione."/>
+	<meta name="DC.Date" content="16/09/2021"/> <!--ultimo aggiornamento-->
+	<meta name="DC.Type" content="sito web"/>
+	<meta name="DC.Format" content="HTML/CSS/JS"/>
+	<meta name="DC.Identifier" content="https://martinaravaioli.github.io/esame_dh_ch/">
+	<meta name="DC.Language" content="it"/>
+	<meta name="DC.Source" content="http://www.mirabileweb.it/author/leo-neapolitanus-archipresbyter-fl-944-969-author/19717">
+	<meta name="DC.Source" content="https://www.europeana.eu/it">
+	<meta name="DC.Relation" content="urn:nbn:de:bsz:24-digibib-bsz4562929187">
+	<meta name="DC.Rights" content="CC BY-NC 4.0"> 
+
+	<title>RomAL - Redazioni</title>
+	<!--bootstrap css-->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">	
+	<link rel="schema.DC" href=”http://purl.org/dc/elements/1.1/”/>
+	<!--css-->
+	<link rel="stylesheet" href="style.css">
+	<link rel="schema.DCTERMS" href=”http://purl.org/dc/terms/”/>
+	<!--leaflet-->
+	<link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+   	integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+  	crossorigin=""/>
+
+</head>
+
+<body style="background-color: #FFFFFF">
+<div class="container-fluid">
+
+<!--HEADER-->
+<header>
+	<div class="container">
+		<div class="row">
+			<div class="col-3" id="colonna-logo">
+				<nav class="navbar navbar-light bg-0070E0">
+  					<a class="navbar-brand" href="C:/Users/marti/OneDrive/Desktop/Esame_DH/index.html">
+    					<img src="C:/Users/marti/OneDrive/Desktop/Esame_DH/immagini/logo.png" id="logo">
+  					</a>
+				</nav>
+			</div>
+			<div class="col-9" id="colonna-titolo">
+				<h1 id="titolo-sito">IL ROMANZO DI ALESSANDRO</h1>
+			</div>
+		</div><!--row-->
+	</div><!--container-->
+
+	<!--NAVBAR-->
+	<hr>
+	<div class="container">
+		<nav class="navbar navbar-expand-lg flex-column flex-sm-row bg-0070E0 justify-content-center" id="navbar">
+  			<ul class="navbar-nav nav-fill">
+   			<!-- Link -->
+    			<li class="nav-item">
+      				<a class="flex-sm-fill text-sm-center nav-link" href="#" style="color: #FFFFFF">Il Progetto</a>
+    			</li>
+    		<!-- Dropdown -->
+    			<li class="nav-item dropdown">
+      				<a class="flex-sm-fill text-sm-center nav-link dropdown-toggle active" href="#" id="navbardrop" data-toggle="dropdown" style="color: #FFFFFF">I Testimoni</a>
+      					<div class="dropdown-menu">
+        					<a class="dropdown-item" href="C:/Users/marti/OneDrive/Desktop/Esame_DH/lista_items.html">Redazioni</a>
+        					<hr>
+        					<a class="dropdown-item" href="#">Secolo</a>
+        					<a class="dropdown-item" href="C:/Users/marti/OneDrive/Desktop/Esame_DH/collocazione.html">Collocazione</a>
+      					</div>
+    			</li>
+    		<!-- Link -->
+    			<li class="nav-item">
+      				<a class="flex-sm-fill text-sm-center nav-link" href="#" style="color: #FFFFFF">Bibliografia</a>
+    			</li>
+  			</ul>
+		</nav>
+	</div><!--container-->
+
+
+	</header>
+
+<br>
+
+<!--SECTION-->
+	<section>
+
+		<!--ASIDE e ITEMS-->
+		<div class="container" id="section">
+			<div class="row" id="section_row">
+			<div class="col-3" id="colonna-aside">
+				<aside>
+					<div class="card" style="width: 12rem; float: left">
+  						<div class="card-body">
+    						<h4>Filtra i risultati:</h4>
+							<hr>
+								<div class="btn-toolbar-vertical">
+									<h5>Secolo</h5>
+									<ul>
+										<li style="padding: 2%"><button type="button" class="btn btn-default" disabled>Sec. XII</button></li>
+										<li style="padding: 2%"><button type="button" class="btn btn-default" disabled>Sec. XIII</button></li>
+										<li style="padding: 2%"><button type="button" class="btn btn-default" disabled>Sec. XIV</button></li>
+									</ul>
+								</div>
+							<hr>
+								<div class="btn-toolbar-vertical">
+									<h5>Collocazione</h5>
+									<ul>
+										<li style="padding: 2%"><button type="button" class="btn btn-default" disabled>Italia</button></li>
+										<li style="padding: 2%"><button type="button" class="btn btn-default" disabled>Germania</button></li>
+										<li style="padding: 2%"><button type="button" class="btn btn-default" disabled>Regno Unito</button></li>
+									</ul>
+								</div>	
+							<hr>
+								<div class="btn-toolbar-vertical">
+									<h5>Provenienza</h5>
+									<ul>
+										<li style="padding: 2%"><button type="button" class="btn btn-default" disabled>Italia</button></li>
+										<li style="padding: 2%"><button type="button" class="btn btn-default" disabled>Germania</button></li>
+										<li style="padding: 2%"><button type="button" class="btn btn-default" disabled>Regno Unito</button></li>
+									</ul>
+								</div>
+              </div>
+						</div>
+				</aside>
+			</div>
+			<div class="col-9">
+			<div class="container no-gutters">
+        <br>
+        <h2>CATALOGO DEI TESTIMONI</h2>
+        <br>
+
+        <ul class="nav nav-tabs">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">Tutti</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Ps.-Call. α</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Ps.-Call. β</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Ps.-Call. γ</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Ps.-Call. *δ</a>
+        </li>
+        </ul>
+        <br>
+  			<div class="row row-cols-1 row-cols-md-3">
+  				<div class="col mb-4">
+    				<div class="card h-100">
+     					<a href="C:/Users/marti/OneDrive/Desktop/Esame_DH/item_cod_hist_fol_411.html"><img src="C:/Users/marti/OneDrive/Desktop/Esame_DH/immagini/card_cod_hist_fol_411.png" class="card-img-top" alt="incipit Historia de preliis J2, cod. hist. fol. 411, f. 223r" copyright="Historische Sammelhandschrift - Cod.hist.fol.411, f. 223r. CC-0 BY Württembergische Landesbibliothek, con modifiche di Martina Ravaioli, http://digital.wlb-stuttgart.de/purl/bsz456292918"></a>
+      					<div class="card-body">
+        				<h3 class="card-title" style="text-align: left">Cod. hist. fol. 411</h3>
+        				<hr>
+        				<p class="card-text" style="text-align: left"><b>Sigla:</b> St</p>
+        				<hr>
+        				<p class="card-text" style="text-align: left"><b>Redazione:</b> Ps.-Call. *δ, <i>Historia de preliis J2</i></p>
+        				<hr>
+        				<p class="card-text" style="text-align: left"><b>Secolo:</b> XII (1160-1170)</p>
+        				<hr>
+        				<p class="card-text" style="text-align: left"><b>Provenienza:</b> Germania, Stoccarda</p>
+        				<hr>
+        				<p class="card-text" style="text-align: left"><b>Collocazione:</b> Württembergische Landesbibliothek, Stoccarda</p>
+        				<hr>
+        				<p class="card-text" style="text-align: left"><b>Copyright:</b> <a href="https://creativecommons.org/publicdomain/mark/1.0/">Public Domain Mark 1.0</a></p>
+      					</div>
+    				</div>
+  				</div>
+  				<div class="col mb-4">
+    				<div class="card h-100">
+      					<img src="C:/Users/marti/OneDrive/Desktop/Esame_DH/immagini/card_ms_venezia_lat_X_216_place_holder.png" class="card-img-top" alt="P capitale in un manoscritto" copyright="Puzzle initial 'P' and dated rubric from BL Burn 247, f. 4v di Sedulius; Prudentius; and others - 1465 - The British Library, United Kingdom - Public Domain. Modifiche di Martina Ravaioli. https://www.europeana.eu/it/item/9200397/BibliographicResource_3000126279325">
+      					<div class="card-body">
+        				<h3 class="card-title" style="text-align: left">Ms. Venezia, lat. X 216 (=3055)</h3>
+        				<hr>
+        				<p class="card-text" style="text-align: left"><b>Sigla:</b> V<sup>1</sup></p>
+        				<hr>
+        				<p class="card-text" style="text-align: left"><b>Redazione:</b> Ps.-Call. *δ, <i>Historia de preliis J2</i></p>
+        				<hr>
+        				<p class="card-text" style="text-align: left"><b>Secolo:</b> XIII</p>
+        				<hr>
+        				<p class="card-text" style="text-align: left"><b>Provenienza:</b> Italia</p>
+        				<hr>
+        				<p class="card-text" style="text-align: left"><b>Collocazione:</b> Biblioteca Nazionale Marciana, Venezia</p>
+        				<hr>
+        				<p class="card-text" style="text-align: left"><b>Copyright:</b> <a href="https://creativecommons.org/publicdomain/mark/1.0/">Public Domain Mark 1.0</a></p>
+      					</div>
+    				</div>
+  				</div>
+  				<div class="col mb-4">
+    				<div class="card h-100">
+      					<img src="C:/Users/marti/OneDrive/Desktop/Esame_DH/immagini/card_cambridge_corpus_christi_college_129.png" class="card-img-top" alt="incipit cod. Cambridge, Corpus Christi College 129." copyright="f. 15r, cod. Cambridge, Corpus Christi College 129. CC-BY-NC The Parker Library, Corpus Christi College, Cambridge, con modifiche di Martina Ravaioli, https://dms-data.stanford.edu/data/manifests/Parker/dr484rx6179/manifest.json">
+      					<div class="card-body">
+        				<h3 class="card-title" style="text-align: left">Cod. Cambridge, Corpus Christi College 129</h3>
+        				<hr>
+        				<p class="card-text" style="text-align: left"><b>Sigla:</b> C<sup>1</sup></p>
+        				<hr>
+        				<p class="card-text" style="text-align: left"><b>Redazione:</b> Ps.-Call. *δ, <i>Historia de preliis J2</i></p>
+        				<hr>
+        				<p class="card-text" style="text-align: left"><b>Secolo:</b> XIII</p>
+        				<hr>
+        				<p class="card-text" style="text-align: left"><b>Provenienza:</b> Abbazia di Sant'Agostino, Canterbury, Regno Unito</p>
+        				<hr>
+        				<p class="card-text" style="text-align: left"><b>Collocazione:</b> Parker Library, Corpus Christi College, Cambridge</p>
+        				<hr>
+        				<p class="card-text" style="text-align: left"><b>Copyright:</b> <a href="https://creativecommons.org/licenses/by-nc/3.0/">Creative Commons Attribution-Noncommercial 3.0 Unported License</a></p>
+      					</div>
+    				</div>
+  				</div>
+  			</div>
+  			</div>
+  			</div>
+ 			</div>
+		</div>
+	</section>
+
+<br>
+
+<!--FOOTER-->
+	<footer>
+  <div class="container no-gutters">
+      <br>
+      <p style="font-size: 13px"><a href="#">Contatti</a></p>
+            <p style="font-size: 13px"><a href="#">FAQ</a></p>
+            <br>
+      <p style="font-size: 12px">&copy; <a href="https://creativecommons.org/licenses/by-nc/4.0/deed.it">CC BY-NC 4.0</a> Martina Ravaioli (esame di DH e CH, 2021)</p>
+      <p style="font-size: 12px">martina.ravaioli5@studio.unibo.it</p>
+      <br>
+  </div>
+  </footer>
+  
+		<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+</div><!--CONTAINER FLUID-->
+</body>
+</html>
