@@ -26,7 +26,7 @@
 <element ref="dc:coverage" type="provenance">Germania</element>
 <element ref="dc:publisher">Württembergische Landesbibliothek</element>
 <element ref="dc:rights">Public Domain Mark 1.0</element>
-<element ref="dc:relation"><!--METTERE URL DEL MIO SITO?--></element>
+<element ref="dc:relation">https://martinaravaioli.github.io/romal/></element>
 </choice>
 </complexType>
 </schema>
